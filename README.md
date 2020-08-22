@@ -226,10 +226,7 @@
       <td>MapKit JS (Apple Maps) API</td>
       <td>Fail</td>
       <td>
-        <ul>
-          <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.</li>
-          <li>The "Zoom in" control's <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</li>
-        </ul>
+        The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.
       </td>
     </tr>
     <tr>
