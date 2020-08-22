@@ -50,6 +50,7 @@
   <ul>
     <li><a href="#111-non-text-content-level-a">1.1.1 Non-text Content (Level A)</a></li>
     <li><a href="#131-info-and-relationships-level-a">1.3.1 Info and Relationships (Level A)</a></li>
+    <li><a href="#143-contrast-minimum-level-aa">1.4.3 Contrast (Minimum) (Level AA)</a></li>
   </ul>
   <h3>Operable</h3>
   <ul>
@@ -272,6 +273,107 @@
           <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.</li>
           <li>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</li>
         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3 Contrast (Minimum)</a> (Level AA)</h3>
+
+<h4>Assessment</h4>
+<ol>
+  <li>
+    Verify that the visual presentation of <a href="https://www.w3.org/TR/WCAG21/#dfn-text">text</a> and <a href="https://www.w3.org/TR/WCAG21/#dfn-images-of-text">images of text</a> has a <a href="https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">contrast ratio</a> of at least 4.5:1, except for the following:
+    <ul>
+      <li>Large Text: <a href="https://www.w3.org/TR/WCAG21/#dfn-large-scale">Large-scale</a> text and images of large-scale text have a contrast ratio of at least 3:1;</li>
+      <li>Incidental: Text or images of text that are part of an inactive <a href="https://www.w3.org/TR/WCAG21/#dfn-user-interface-components">user interface component</a>, that are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement;</li>
+      <li>Logotypes: Text that is part of a logo or brand name has no contrast requirement.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>If requirements of check #1 is met <i>Result</i> is <i>Pass</i>, else <i>Fail</i>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Web map tool</th>
+      <th>Result</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Maps embed</td>
+      <td>Fail</td>
+      <td>
+        The "View larger map" link has a contrast ratio of 3.79. Some map text (i.e. ocean labels) do not mean the minimum contrast ratio.
+      </td>
+    </tr>
+    <tr>
+      <td>Google Maps Platform API</td>
+      <td>Fail</td>
+      <td>
+        The "View larger map" link has a contrast ratio of 3.79. Some map text (i.e. ocean labels) do not mean the minimum contrast ratio.
+      </td>
+    </tr>
+    <tr>
+      <td>Bing Maps embed</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. bodies of water, district labels) do not meet the minimum contrast ratio.
+      </td>
+    </tr>
+    <tr>
+      <td>Bing Maps Control API</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. bodies of water, district labels) do not meet the minimum contrast ratio.
+      </td>
+    </tr>
+    <tr>
+      <td>MapKit JS (Apple Maps) API</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. bodies of water, minor street labels) do not meet the minimum contrast ratio.
+      </td>
+    </tr>
+    <tr>
+      <td>Leaflet JS API</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
+      </td>
+    </tr>
+    <tr>
+      <td>OpenStreetMap embed</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
+      </td>
+    </tr>
+    <tr>
+      <td>OpenLayers API</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
+      </td>
+    </tr>
+    <tr>
+      <td>MapBox Studio embed</td>
+      <td>Pass</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MapBox GL JS API</td>
+      <td>Pass</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TomTom Maps SDK for Web</td>
+      <td>Fail</td>
+      <td>
+        Some map labels (i.e. buildings) do not meet the minimum contrast ratio.
       </td>
     </tr>
   </tbody>
