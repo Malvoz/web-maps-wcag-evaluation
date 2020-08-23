@@ -102,10 +102,7 @@
       <td>Google Maps embed</td>
       <td>Fail</td>
       <td>
-        <ul>
-          <li>The zoom controls' descendant <code>&lt;img&gt;</code> elements are <i>decorative</i> but are not hidden from <abbr>ATs</abbr>.</li>
-          <li>The image depicting "Google" (logo) is neither hidden from <abbr>ATs</abbr> nor has a <i>text alternative</i>.</li>
-        </ul>
+        The image depicting "Google" (logo) is neither hidden from <abbr>ATs</abbr> nor has a <i>text alternative</i>.
       </td>
     </tr>
     <tr>
@@ -113,8 +110,6 @@
       <td>Fail</td>
       <td>
         <ul>
-          <li>The zoom controls' descendant <code>&lt;img&gt;</code> elements are <i>decorative</i> but are not hidden from <abbr>ATs</abbr>.</li>
-          <li>The fullscreen control's descendant <code>&lt;img&gt;</code> elements are <i>decorative</i> but are not hidden from <abbr>ATs</abbr>.</li>
           <li>The "rotate/reset the bearing" controls' (in "Street view") descendant <code>&lt;img&gt;</code> elements are <i>decorative</i> but are not hidden from <abbr>ATs</abbr>.</li>
           <li>The link that opens a new window to view the current location (in "Street view") is visually presented as an icon, but is missing a <i>text alternative</i>.</li>
         </ul>
