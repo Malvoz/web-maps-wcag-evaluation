@@ -1506,4 +1506,5 @@
   <li>Not all web map container elements are focusable (<em>and</em> enclose all their components); tabbing to the web map's components does not guarantee the map display to be fully in the user's viewport.</li>
   <li>There's no way to pan the map displays using a single pointer gesture.</li>
   <li>Available keyboard shortcuts are not conveyed to the user.</li>
+  <li>No web map supports high contrast mode, and fail to display each discrete element (country boundaries, bodies of water, roads etc.) in sharp contrast to each other (SC <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11 Non-text Contrast</a>).</li>
 </ul>
