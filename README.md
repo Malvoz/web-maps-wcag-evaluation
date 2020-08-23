@@ -66,6 +66,7 @@
     <li><a href="#311-language-of-page-level-a">3.1.1 Language of Page (Level A)</a></li>
     <li><a href="#312-language-of-parts-level-aa">3.1.2 Language of Parts (Level AA)</a></li>
     <li><a href="#322-on-input-level-a">3.2.2 On Input (Level A)</a></li>
+    <li><a href="#325-change-on-request-level-aaa">3.2.5 Change on Request (Level AAA)</a></li>
   </ul>
   <h3>Robust</h3>
   <ul>
@@ -1364,6 +1365,100 @@
         Panning the map display using the arrow keys causes the document to scroll.
       </td>
       <td width="350"><img src="images/on-input/tomtom-maps-sdk-api.gif" width="350" alt="TomTom pan key event issue."></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a href="https://www.w3.org/TR/WCAG21/#change-on-request">3.2.5 Change on Request</a> (Level AAA)</h3>
+
+<h4>Assessment</h4>
+<ol>
+  <li>Verify that <a href="https://www.w3.org/TR/WCAG21/#dfn-change-of-context">Changes of context</a> are initiated only by user request or a <a href="https://www.w3.org/TR/WCAG21/#dfn-mechanism">mechanism</a> is available to turn off such changes.
+</ol>
+
+<p>If requirements of step #1 is met <i>Result</i> is <i>Pass</i>, else <i>Fail</i>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Web map tool</th>
+      <th>Result</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Maps embed</td>
+      <td>Fail</td>
+      <td>
+        Both the "View larger map" link and the "Terms of Use" link open in new windows without warning. The "View larger map" button is especially unexpected as stylistically, it resembles a button, not a link.
+      </td>
+    </tr>
+    <tr>
+      <td>Google Maps Platform API</td>
+      <td>Fail</td>
+      <td>
+        The "Terms of Use" link opens in new window without warning. The Google logo link contains the screen reader label "Open this area in Google Maps", which does give the user sufficient warning, as it may open in the native Maps app on mobile.
+      </td>
+    </tr>
+    <tr>
+      <td>Bing Maps embed</td>
+      <td>Fail</td>
+      <td>
+        Both the Bing Maps logo and the "Terms" link open in new windows without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>Bing Maps Control API</td>
+      <td>Fail</td>
+      <td>
+        Both the Bing Maps logo and the "Terms" link open in new windows without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>MapKit JS (Apple Maps) API</td>
+      <td>Fail</td>
+      <td>
+        The "Legal" link is incorrectly marked up as a button (<code>role="button"</code>), opens in new tab without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>Leaflet JS API</td>
+      <td>Pass</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenStreetMap embed</td>
+      <td>Fail</td>
+      <td>
+        The "Report a problem" and "OpenStreetMap" links open in a new tab without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>OpenLayers API</td>
+      <td>Fail</td>
+      <td>
+        The "OpenStreetMap" link opens in a new tab without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>MapBox Studio embed</td>
+      <td>Fail</td>
+      <td>
+        Mapbox logo link opens in a new tab without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>MapBox GL JS API</td>
+      <td>Fail</td>
+      <td>
+        Mapbox logo link opens in a new tab without warning.
+      </td>
+    </tr>
+    <tr>
+      <td>TomTom Maps SDK for Web</td>
+      <td>Pass</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
