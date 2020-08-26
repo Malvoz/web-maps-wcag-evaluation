@@ -1391,7 +1391,7 @@
       <td>Google Maps embed</td>
       <td>Fail</td>
       <td>
-        Both the "View larger map" link and the "Terms of Use" link open in new windows without warning. The "View larger map" button is especially unexpected as stylistically, it resembles a button, not a link.
+        Both the "View larger map" link and the "Terms of Use" link open in new windows without warning. The "View larger map" link is especially unexpected as stylistically, it resembles a button, not a link.
       </td>
     </tr>
     <tr>
