@@ -9,6 +9,10 @@
   <a href="https://www.w3.org/community/maps4html/">Maps for HTML Community Group</a>.
 </p>
 
+<p>
+  The intention of this document is to get a broad sense for the accessibility support of the evaluated web map tools. The evaluation should not be considered complete, and the results of a given <a href="#evaluated-success-criteria">Success Criterion</a> should not be interpreted as a comparison for accessibility support between the different web map tools.
+</p>
+
 <details>
   <summary>Evaluated web map tools</summary>
   <ul>
