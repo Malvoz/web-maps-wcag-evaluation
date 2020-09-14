@@ -110,10 +110,7 @@
       <td>Google Maps Platform API</td>
       <td>Fail</td>
       <td>
-        <ul>
-          <li>The "rotate/reset the bearing" controls' (in "Street view") descendant <code>&lt;img&gt;</code> elements are <i>decorative</i> but are not hidden from <abbr>ATs</abbr>.</li>
-          <li>The link that opens a new window to view the current location (in "Street view") is visually presented as an icon, but is missing a <i>text alternative</i>.</li>
-        </ul>
+        The link that opens a new window to view the current location (in "Street view") is visually presented as an icon, but is missing a <i>text alternative</i>.
       </td>
     </tr>
     <tr>
