@@ -649,6 +649,19 @@
 
 <p>If the requirements of step #3 is met <i>Result</i> is <i>Pass</i>, else <i>Fail</i>.</p>
 
+<p>
+  (Note: This Success Criterion includes "Complementary screen reader output",
+  the combination of screen readers/browsers tested is not comprehensive and
+  different combinations may have different results. Also note that it appears
+  NVDA is announcing some things twice, in most cases this is because a component
+  has identical <code>aria-label</code> and <code>title</code> attribute values,
+  in which case it is considered a bug to announce them both, see: 
+  <a href="https://github.com/nvaccess/nvda/issues/7841">https://github.com/nvaccess/nvda/issues/7841</a>.
+  To work around the bug, the web map tool author could use
+  <code>&lt;span title="" aria-hidden="true"&gt;</code> as a child element of
+  the control instead.)
+</p>
+
 <table>
   <thead>
     <tr>
