@@ -255,7 +255,7 @@
     <tr>
       <td>MapBox Studio embed</td>
       <td>Fail</td>
-      <td>The "Zoom out" control's <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</td>
+      <td>The "Zoom out" control's <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
       <td>MapBox GL JS API</td>
@@ -456,13 +456,13 @@
       <td>MapBox Studio embed</td>
       <td>Fail</td>
       <td>
-        Control to display attribution and feedback links is not keyboard accessible.
+        Control to display attribution and feedback links is not keyboard accessible. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]
       </td>
     </tr>
     <tr>
       <td>MapBox GL JS API</td>
       <td>Fail</td>
-      <td>Control to display attribution and feedback links is not keyboard accessible.</td>
+      <td>Control to display attribution and feedback links is not keyboard accessible. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
       <td>TomTom Maps SDK for Web</td>
@@ -1065,12 +1065,12 @@
     <tr>
       <td>MapBox Studio embed</td>
       <td>Fail</td>
-      <td>1 tab stop without focus indicator.</td>
+      <td>1 tab stop without focus indicator. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
       <td>MapBox GL JS API</td>
       <td>Fail</td>
-      <td>1 tab stop without focus indicator.</td>
+      <td>1 tab stop without focus indicator. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
       <td>TomTom Maps SDK for Web</td>
@@ -1158,7 +1158,7 @@
     <tr>
       <td>MapBox GL JS API</td>
       <td>Fail</td>
-      <td>2/2 targets are too small.</td>
+      <td>2/2 targets are too small. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
       <td>TomTom Maps SDK for Web</td>
@@ -1574,8 +1574,8 @@
       <td>Fail</td>
       <td>
         <ul>
-          <li>The "map component" (<code>&lt;canvas tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>role</i>.</li>
-          <li>Control to display attribution and feedback links is missing <i>name</i> and <i>role</i>.</li>
+          <li>The "map component" (<code>&lt;canvas tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>role</i>. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</li>
+          <li>Control to display attribution and feedback links is missing <i>name</i> and <i>role</i>. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</li>
         </ul>
       </td>
     </tr>
@@ -1584,8 +1584,8 @@
       <td>Fail</td>
       <td>
         <ul>
-          <li>The "map component" (<code>&lt;canvas tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>role</i>.</li>
-          <li>Control to display attribution and feedback links is missing <i>name</i> and <i>role</i>.</li>
+          <li>The "map component" (<code>&lt;canvas tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>role</i>. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</li>
+          <li>Control to display attribution and feedback links is missing <i>name</i> and <i>role</i>. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</li>
         </ul>
       </td>
     </tr>
