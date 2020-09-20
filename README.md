@@ -931,7 +931,7 @@
         <details open>
           <summary>NVDA</summary>
           <ol>
-            <li>"MapBox Studio <i>frame clickable</i> map graphic"</li>
+            <li>"MapBox Studio <i>frame clickable</i> map <i>graphic</i>"</li>
             <li>"Search <i>edit blank</i>"</li>
             <li>"Zoom in <i>button</i> zoom in"</li>
             <li>"Zoom out <i>button</i> zoom out"</li>
@@ -957,7 +957,7 @@
         <details open>
           <summary>NVDA</summary>
           <ol>
-            <li>"<i>clickable</i> map graphic"</li>
+            <li>"<i>clickable</i> map <i>graphic</i>"</li>
             <li>"MapBox logo <i>link</i>"</li>
           </ol>
         </details>
@@ -981,7 +981,7 @@
         <details open>
           <summary>NVDA</summary>
           <ol>
-            <li>"<i>clickable</i> map graphic zoom in <i>button</i> zoom in zoom out <i>button</i> zoom out <i>clickable</i> copyright 1992 to 2020 TomTom"</li>
+            <li>"<i>clickable</i> map <i>graphic</i> zoom in <i>button</i> zoom in zoom out <i>button</i> zoom out <i>clickable</i> copyright 1992 to 2020 TomTom"</li>
             <li><i>(no announcement)</i></li>
             <li>"Zoom in <i>button</i> zoom in"</li>
             <li>"Zoom out <i>button</i> zoom out"</li>
