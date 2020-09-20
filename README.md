@@ -232,8 +232,8 @@
       <td>Fail</td>
       <td>
         <ul>
-          <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined. [<a href="https://github.com/Leaflet/Leaflet/issues/7193">Leaflet issue</a>]</li>
-          <li>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined. [<a href="https://github.com/Leaflet/Leaflet/issues/7211">Leaflet issue</a>]</li>
+          <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined. [<a href="https://github.com/Leaflet/Leaflet/issues/7193">Github issue</a>]</li>
+          <li>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined. [<a href="https://github.com/Leaflet/Leaflet/issues/7211">Github issue</a>]</li>
         </ul>
       </td>
     </tr>
@@ -1043,7 +1043,7 @@
       <td>
         <ul>
           <li>1 tab stop without focus indicator.</li>
-          <li>4 tab stops where focus indicators aren't persistently visible. [<a href="https://github.com/Leaflet/Leaflet/issues/6986">Leaflet issue</a>]</li>
+          <li>4 tab stops where focus indicators aren't persistently visible. [<a href="https://github.com/Leaflet/Leaflet/issues/6986">Github issue</a>]</li>
         </ul>
       </td>
     </tr>
@@ -1553,7 +1553,7 @@
       <td>Fail</td>
       <td>
         The "map component" (<code>&lt;div tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>name</i> and <i>role</i>. 
-        [<a href="https://github.com/Leaflet/Leaflet/issues/7193">Leaflet issue</a>]
+        [<a href="https://github.com/Leaflet/Leaflet/issues/7193">Github issue</a>]
       </td>
     </tr>
     <tr>
