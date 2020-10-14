@@ -1158,7 +1158,7 @@
     <tr>
       <td>MapBox GL JS API</td>
       <td>Fail</td>
-      <td>2/2 targets are too small. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
+      <td>2/2 targets are too small.</td>
     </tr>
     <tr>
       <td>TomTom Maps SDK for Web</td>
