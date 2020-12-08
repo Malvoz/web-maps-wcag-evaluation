@@ -1,3 +1,5 @@
+This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gkzg)/[slides](https://wcag-maps.nicchan.me/)) by [Nic Chan](https://www.nicchan.me/) at the 2020 [W3C/OGC Joint Workshop Series on Maps for the Web](https://www.w3.org/2020/maps/).
+
 <h1>Web map tools WCAG 2.1 evaluation</h1>
 
 <h2>Evaluation scope</h2>
