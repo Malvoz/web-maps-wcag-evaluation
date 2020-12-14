@@ -1324,7 +1324,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>
         Panning the map display using the arrow keys causes the document to scroll (in "Street view").
       </td>
-      <td width="350"><img src="images/on-input/google-maps-api.gif" width="350" alt="Google Maps API pan key event issue."></td>
+      <td width="350"><a href="images/on-input/google-maps-api.gif">View animated GIF</a></td>
     </tr>
     <tr>
       <td>Bing Maps embed</td>
@@ -1380,7 +1380,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>
         Panning the map display using the arrow keys causes the document to scroll.
       </td>
-      <td width="350"><img src="images/on-input/tomtom-maps-sdk-api.gif" width="350" alt="TomTom pan key event issue."></td>
+      <td width="350"><a href="images/on-input/tomtom-maps-sdk-api.gif">View animated GIF</a></td>
     </tr>
   </tbody>
 </table>
