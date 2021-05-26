@@ -1620,3 +1620,26 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
   <li>Available keyboard shortcuts are not conveyed to the user.</li>
   <li>All web maps fail to display each discrete element (country boundaries, bodies of water, roads etc.) in sharp contrast to each other (SC <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11 Non-text Contrast</a>), and none of the web maps support high contrast mode.</li>
 </ul>
+
+<h2>Issue reporting</h2>
+
+<p>This document may include links to existing Github issues/PRs pertaining to a particular failure of a Success Criterion, however, it will not be updated to reflect any such fixes.</p>
+<p>Additionally, this evaluation was reported to the web map tools' authors for awareness:</p>
+
+<ul>
+  <li>Google Maps:  <a href="https://issuetracker.google.com/issues/69541792#comment37">https://issuetracker.google.com/issues/69541792#comment37</a></li>
+  <li>Bing Maps: <a href="https://social.msdn.microsoft.com/Forums/en-US/48cac514-03ba-49d7-a91b-de9a066bb5d8/accessibility-evaluation-wcag-21?forum=bingmaps">https://social.msdn.microsoft.com/Forums/en-US/48cac514-03ba-49d7-a91b-de9a066bb5d8/accessibility-evaluation-wcag-21?forum=bingmaps</a></li>
+  <li>MapKit JS (Apple Maps): <a href="https://developer.apple.com/forums/thread/674971">https://developer.apple.com/forums/thread/674971</a>
+    <ul>
+      <li>DuckDuckGo Maps: <a href="https://github.com/duckduckgo/community-platform/issues/1531">https://github.com/duckduckgo/community-platform/issues/1531</a></li>
+    </ul>
+  </li>
+  <li>OpenLayers: <a href="https://github.com/openlayers/openlayers/issues/11678">https://github.com/openlayers/openlayers/issues/11678</a></li>
+  <li>OpenStreetMap: <a href="https://lists.openstreetmap.org/pipermail/accessibility/2020-October/000421.html">https://lists.openstreetmap.org/pipermail/accessibility/2020-October/000421.html</a></li>
+	<li>MapBox: <a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">https://github.com/mapbox/mapbox-gl-js/pull/9991</a>
+    <ul>
+      <li>MapLibre: <a href="https://github.com/maplibre/maplibre-gl-js/issues/53">https://github.com/maplibre/maplibre-gl-js/issues/53</a></li>
+    </ul>
+  </li>
+  <li>TomTom Maps: <a href="https://devforum.tomtom.com/t/accessibility-evaluation-wcag-2-1/1400">https://devforum.tomtom.com/t/accessibility-evaluation-wcag-2-1/1400</a></li>
+</ul>
