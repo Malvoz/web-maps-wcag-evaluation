@@ -1606,10 +1606,10 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
   </tbody>
 </table>
 
-<h2>Substantial accessibility issues not yet mapped/added to Success Criteria</h2>
+<h2>Other substantial accessibility issues</h2>
 
 <ul>
-  <li>Map data is almost never programmatically determinable.</li>
+  <li>Maps' content is almost never programmatically determinable and thus not available to users of assistive technology.</li>
   <li>
     Most controls (commonly <code>&lt;a role="button"&gt;</code>) do not activate on both <kbd>enter</kbd> and <kbd>space</kbd> key presses (see WAI-ARIA Authoring Practices's recommended
     <a href="https://www.w3.org/TR/wai-aria-practices/#keyboard-interaction-3">Keyboard Interactions</a> for buttons).
