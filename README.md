@@ -1,6 +1,6 @@
-This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gkzg)/[slides](https://wcag-maps.nicchan.me/)) by [Nic Chan](https://www.nicchan.me/) at the 2020 [W3C/OGC Joint Workshop Series on Maps for the Web](https://www.w3.org/2020/maps/).
-
 <h1>Web map tools WCAG 2.1 evaluation</h1>
+
+A summary of this evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gkzg)/[slides](https://wcag-maps.nicchan.me/)) by [Nic Chan](https://www.nicchan.me/) at the 2020 [W3C/OGC Joint Workshop Series on Maps for the Web](https://www.w3.org/2020/maps/).
 
 <h2>Evaluation scope</h2>
 
@@ -147,7 +147,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
     <tr>
       <td>OpenLayers API</td>
       <td>Fail</td>
-      <td>Characters "+" and "−" of the zoom controls are <i>decorative</i> but are not hidden from ATs.</td>
+      <td>Characters "+" and "−" of the zoom controls are <i>decorative</i> but are not hidden from ATs. [<a href="https://github.com/openlayers/openlayers/issues/12041">Github issue</a>]</td>
     </tr>
     <tr>
       <td>MapBox Studio embed</td>
@@ -249,8 +249,8 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Fail</td>
       <td>
         <ul>
-          <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.</li>
-          <li>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</li>
+          <li>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined. [<a href="https://github.com/openlayers/openlayers/issues/12314">Github issue</a>]</li>
+          <li>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined. [<a href="https://github.com/openlayers/openlayers/issues/12316">Github issue</a>]</li>
         </ul>
       </td>
     </tr>
@@ -1140,7 +1140,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
     <tr>
       <td>Leaflet JS API</td>
       <td>Fail</td>
-      <td>2/2 targets are too small.</td>
+      <td>2/2 targets are too small. [<a href="https://github.com/Leaflet/Leaflet/issues/7549">Github issue</a>]</td>
     </tr>
     <tr>
       <td>OpenStreetMap embed</td>
@@ -1150,7 +1150,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
     <tr>
       <td>OpenLayers API</td>
       <td>Fail</td>
-      <td>2/2 targets are too small.</td>
+      <td>2/2 targets are too small. [<a href="https://github.com/openlayers/openlayers/issues/12311">Github issue</a>]</td>
     </tr>
     <tr>
       <td>MapBox Studio embed</td>
@@ -1569,6 +1569,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>
         Controls to zoom in and zoom out do not have proper <i>name</i>s (while the <code>title</code>s "Zoom in" and "Zoom out" are appropriate, the child text nodes "+" and "−" takes precedence in this case, according to the
         <a href="https://www.w3.org/TR/accname-1.1/#mapping_additional_nd_te">accessible name and description computation</a>, and is announced as "button plus" and "button minus" in ChromeVox, for example).
+        [<a href="https://github.com/openlayers/openlayers/issues/12041">Github issue</a>]
       </td>
     </tr>
     <tr>
