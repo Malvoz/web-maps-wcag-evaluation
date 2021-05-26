@@ -679,7 +679,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Google Maps embed</td>
       <td>Fail</td>
       <td></td>
-      <td><img src="images/google-maps-embed.png" width="350" alt="Google Maps embed focus order"></td>
+      <td width="350"><img src="assets/images/google-maps-embed.png" width="350" alt="Google Maps embed focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -709,7 +709,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Google Maps Platform API</td>
       <td>Fail</td>
       <td></td>
-      <td width="350"><img src="images/google-maps-api.png" width="350" alt="Google Maps API focus order"></td>
+      <td width="350"><img src="assets/images/google-maps-api.png" width="350" alt="Google Maps API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -743,7 +743,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Bing Maps embed</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/bing-maps-embed.png" width="350" alt="Bing Maps embed focus order"></td>
+      <td width="350"><img src="assets/images/bing-maps-embed.png" width="350" alt="Bing Maps embed focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -769,7 +769,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Bing Maps Control API</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/bing-maps-control-api.png" width="350" alt="Bing Maps API focus order"></td>
+      <td width="350"><img src="assets/images/bing-maps-control-api.png" width="350" alt="Bing Maps API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -799,9 +799,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>MapKit JS (Apple Maps) API</td>
       <td>Pass</td>
       <td></td>
-      <td width="350">
-        <img src="images/mapkit-js-apple-maps-api.png" width="350" alt="MapKit JS Apple Maps API focus order">
-      </td>
+      <td width="350"><img src="assets/images/mapkit-js-apple-maps-api.png" width="350" alt="MapKit JS Apple Maps API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -831,7 +829,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>Leaflet JS API</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/leaflet-js-api.png" width="350" alt="Leaflet JS API focus order"></td>
+      <td width="350"><img src="assets/images/leaflet-js-api.png" width="350" alt="Leaflet JS API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -862,7 +860,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>OpenStreetMap embed</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/openstreetmap-embed.png" width="350" alt="OpenStreetMap embed focus order"></td>
+      <td width="350"><img src="assets/images/openstreetmap-embed.png" width="350" alt="OpenStreetMap embed focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -893,7 +891,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>OpenLayers API</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/openlayers-api.png" width="350" alt="OpenLayers API focus order"></td>
+      <td width="350"><img src="assets/images/openlayers-api.png" width="350" alt="OpenLayers API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -917,7 +915,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>MapBox Studio embed</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/mapbox-studio-embed.png" width="350" alt="MapBox Studio embed focus order"></td>
+      <td width="350"><img src="assets/images/mapbox-studio-embed.png" width="350" alt="MapBox Studio embed focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -947,7 +945,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>MapBox GL JS API</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/mapbox-gl-js-api.png" width="350" alt="MapBox GL JS API focus order"></td>
+      <td width="350"><img src="assets/images/mapbox-gl-js-api.png" width="350" alt="MapBox GL JS API focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -969,7 +967,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>TomTom Maps SDK for Web</td>
       <td>Pass</td>
       <td></td>
-      <td width="350"><img src="images/tomtom-maps-sdk-api.png" width="350" alt="TomTom Maps SDK for Web focus order"></td>
+      <td width="350"><img src="assets/images/tomtom-maps-sdk-api.png" width="350" alt="TomTom Maps SDK for Web focus order"></td>
       <td>
         <details>
           <summary>ChromeVox</summary>
@@ -1324,7 +1322,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>
         Panning the map display using the arrow keys causes the document to scroll (in "Street view").
       </td>
-      <td width="350"><a href="images/on-input/google-maps-api.gif">View autoplaying GIF</a></td>
+      <td width="350"><video width="350" src="assets/video/google-maps-api.mp4"></video></td>
     </tr>
     <tr>
       <td>Bing Maps embed</td>
@@ -1380,7 +1378,7 @@ This evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gk
       <td>
         Panning the map display using the arrow keys causes the document to scroll.
       </td>
-      <td width="350"><a href="images/on-input/tomtom-maps-sdk-api.gif">View autoplaying GIF</a></td>
+      <td width="350"><video width="350" src="assets/video/tomtom-maps-sdk-api.mp4"></video></td>
     </tr>
   </tbody>
 </table>
