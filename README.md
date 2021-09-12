@@ -99,68 +99,68 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>
         The image depicting "Google" (logo) is neither hidden from <abbr>ATs</abbr> nor has a <i>text alternative</i>.
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         The link that opens a new window to view the current location (in "Street view") is visually presented as an icon, but is missing a <i>text alternative</i>.
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>The control to change/reset the bearing has a child node with the text character "N" to convey "North", it is presumably <i>decorative</i> but is not hidden from ATs.</td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>Characters "+" and "−" of the zoom controls are <i>decorative</i> but are not hidden from ATs. [<a href="https://github.com/openlayers/openlayers/issues/12041">Github issue</a>]</td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>Character "×" of the control to close the copyright message dialog is <i>decorative</i> but is not hidden from ATs.</td>
     </tr>
@@ -183,19 +183,19 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -206,12 +206,12 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Fail</td>
       <td>Scale bars/rulers are missing contextual information (alternatively should be hidden from ATs).</td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -223,14 +223,14 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>
         The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.
       </td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -240,12 +240,12 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>The zoom controls' <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined.</td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -255,17 +255,17 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>The "Zoom out" control's <a href="https://www.w3.org/TR/wai-aria/#aria-disabled">disabled</a> <i>state</i> cannot be programmatically determined. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>The web map's semantic <i>structure</i> as a distinct piece of content cannot be programmatically determined.</td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -296,80 +296,80 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>
         The "View larger map" link has a contrast ratio of 3.79. Some map text (i.e. ocean labels) do not mean the minimum contrast ratio.
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         The "View larger map" link has a contrast ratio of 3.79. Some map text (i.e. ocean labels) do not mean the minimum contrast ratio.
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. bodies of water, district labels) do not meet the minimum contrast ratio.
       </td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. bodies of water, district labels) do not meet the minimum contrast ratio.
       </td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. bodies of water, minor street labels) do not meet the minimum contrast ratio.
       </td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
       </td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
       </td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. regional/districts) do not meet the minimum contrast ratio (uses OpenStreetMap tiles).
       </td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>
         Some map labels (i.e. buildings) do not meet the minimum contrast ratio.
@@ -392,14 +392,14 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -409,7 +409,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -425,49 +425,49 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>Control to toggle area labels under "Bird's Eye view" is not keyboard accessible (has <code>tabindex="-1"</code>).</td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>Map display is not pannable using a keyboard.</td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>
         Control to display attribution and feedback links is not keyboard accessible. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]
       </td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>Control to display attribution and feedback links is not keyboard accessible. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -493,64 +493,64 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Pass</td>
       <td></td>
     </tr>
@@ -575,64 +575,64 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>N/A</td>
       <td>(No single key shortcuts available.)</td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>N/A</td>
       <td>(No single key shortcuts available.)</td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>Both the arrow keys (used to pan the map display) as well as the keyboard shortcuts <kbd>+</kbd> and <kbd>-</kbd> (to zoom) can be activated despite unrelated components having focus.</td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td nowrap>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left" nowrap>TomTom Maps SDK for Web</th>
       <td>Pass</td>
       <td></td>
     </tr>
@@ -667,16 +667,16 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
       <th>Screenshot</th>
       <th width="300">Complementary screen reader output</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td></td>
       <td><img src="images/google-maps-embed.png" width="350" alt="Google Maps embed focus order"></td>
@@ -706,7 +706,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td></td>
       <td width="350"><img src="images/google-maps-api.png" width="350" alt="Google Maps API focus order"></td>
@@ -740,7 +740,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/bing-maps-embed.png" width="350" alt="Bing Maps embed focus order"></td>
@@ -766,7 +766,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/bing-maps-control-api.png" width="350" alt="Bing Maps API focus order"></td>
@@ -796,7 +796,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Pass</td>
       <td></td>
       <td width="350">
@@ -828,7 +828,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/leaflet-js-api.png" width="350" alt="Leaflet JS API focus order"></td>
@@ -859,7 +859,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/openstreetmap-embed.png" width="350" alt="OpenStreetMap embed focus order"></td>
@@ -890,7 +890,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/openlayers-api.png" width="350" alt="OpenLayers API focus order"></td>
@@ -914,7 +914,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/mapbox-studio-embed.png" width="350" alt="MapBox Studio embed focus order"></td>
@@ -944,7 +944,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/mapbox-gl-js-api.png" width="350" alt="MapBox GL JS API focus order"></td>
@@ -966,7 +966,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Pass</td>
       <td></td>
       <td width="350"><img src="images/tomtom-maps-sdk-api.png" width="350" alt="TomTom Maps SDK for Web focus order"></td>
@@ -1008,39 +1008,39 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>2 tab stops without focus indicators.</td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>13 tab stops without focus indicators (in "Street view").</td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1050,7 +1050,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1060,22 +1060,22 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>1 tab stop without focus indicator. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>1 tab stop without focus indicator. [<a href="https://github.com/mapbox/mapbox-gl-js/pull/9991">Github PR</a>]</td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>2 tab stops without focus indicators.</td>
     </tr>
@@ -1106,64 +1106,64 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>4/4 targets are too small.</td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>14/14 targets are too small.</td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Fail</td>
       <td>3/3 targets are too small.</td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>9/14 targets are too small.</td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>5/6 targets are too small.</td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td>2/2 targets are too small. [<a href="https://github.com/Leaflet/Leaflet/issues/7549">Github issue</a>]</td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>2/2 targets are too small.</td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>2/2 targets are too small. [<a href="https://github.com/openlayers/openlayers/issues/12311">Github issue</a>]</td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>7/7 targets are too small.</td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>2/2 targets are too small.</td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>3/3 targets are too small.</td>
     </tr>
@@ -1189,29 +1189,29 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td>Specifies the corresponding <a href="https://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> code.</td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td>Specifies the corresponding <a href="https://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> code.</td>
     </tr>
@@ -1231,64 +1231,64 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td>The language of Parts can be determined as the requirements of <a href="#311-language-of-page-level-a">SC 3.1.1 Language of Page</a> are met.</td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td>The language of Parts can be determined as the requirements of <a href="#311-language-of-page-level-a">SC 3.1.1 Language of Page</a> are met.</td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td></td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td></td>
     </tr>
@@ -1305,21 +1305,21 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
       <th>Screen capture</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         Panning the map display using the arrow keys causes the document to scroll (in "Street view").
@@ -1327,55 +1327,55 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       <td width="350"><a href="images/on-input/google-maps-api.gif">View autoplaying GIF</a></td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Pass</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>
         Panning the map display using the arrow keys causes the document to scroll.
@@ -1397,82 +1397,82 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>
         Both the "View larger map" link and the "Terms of Use" link open in new windows without warning. The "View larger map" link is especially unexpected as stylistically, it resembles a button, not a link.
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         The "Terms of Use" link opens in new window without warning. The Google logo link contains the screen reader label "Open this area in Google Maps", which does give the user sufficient warning, as it may open in the native Maps app on mobile.
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Fail</td>
       <td>
         Both the Bing Maps logo and the "Terms" link open in new windows without warning.
       </td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>
         Both the Bing Maps logo and the "Terms" link open in new windows without warning.
       </td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>
         The "Legal" link is incorrectly marked up as a button (<code>role="button"</code>), opens in new tab without warning.
       </td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Pass</td>
       <td></td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>
         The "Report a problem" and "OpenStreetMap" links open in a new tab without warning.
       </td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>
         The "OpenStreetMap" link opens in a new tab without warning.
       </td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>
         Mapbox logo link opens in a new tab without warning.
       </td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>
         Mapbox logo link opens in a new tab without warning.
       </td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Pass</td>
       <td></td>
     </tr>
@@ -1498,14 +1498,14 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
 <table>
   <thead>
     <tr>
-      <th>Web map tool</th>
-      <th>Result</th>
-      <th>Notes</th>
+      <th scope="col">Web map tool</th>
+      <th scope="col">Result</th>
+      <th scope="col">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Google Maps embed</td>
+      <th scope="row" align="left">Google Maps embed</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1515,7 +1515,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Google Maps Platform API</td>
+      <th scope="row" align="left">Google Maps Platform API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1528,12 +1528,12 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Bing Maps embed</td>
+      <th scope="row" align="left">Bing Maps embed</th>
       <td>Fail</td>
       <td>The "map component" (<code>&lt;div tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>role</i>.</td>
     </tr>
     <tr>
-      <td>Bing Maps Control API</td>
+      <th scope="row" align="left">Bing Maps Control API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1543,7 +1543,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapKit JS (Apple Maps) API</td>
+      <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
       <td>Fail</td>
       <td>
         Control to rotate/reset the bearing is missing <i>role</i>. (Note: there are two separate controls providing the same functionality, for clarification, this refers to <code>&lt;div tabindex="0"&gt;</code> and not the
@@ -1551,7 +1551,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>Leaflet JS API</td>
+      <th scope="row" align="left">Leaflet JS API</th>
       <td>Fail</td>
       <td>
         The "map component" (<code>&lt;div tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>name</i> and <i>role</i>. 
@@ -1559,12 +1559,12 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>OpenStreetMap embed</td>
+      <th scope="row" align="left">OpenStreetMap embed</th>
       <td>Fail</td>
       <td>The "map component" (<code>&lt;div tabindex="0"&gt;</code>, which acts as a control to both zoom and pan the map display) is missing <i>name</i> and <i>role</i>.</td>
     </tr>
     <tr>
-      <td>OpenLayers API</td>
+      <th scope="row" align="left">OpenLayers API</th>
       <td>Fail</td>
       <td>
         Controls to zoom in and zoom out do not have proper <i>name</i>s (while the <code>title</code>s "Zoom in" and "Zoom out" are appropriate, the child text nodes "+" and "−" takes precedence in this case, according to the
@@ -1573,7 +1573,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapBox Studio embed</td>
+      <th scope="row" align="left">MapBox Studio embed</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1583,7 +1583,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>MapBox GL JS API</td>
+      <th scope="row" align="left">MapBox GL JS API</th>
       <td>Fail</td>
       <td>
         <ul>
@@ -1593,7 +1593,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
       </td>
     </tr>
     <tr>
-      <td>TomTom Maps SDK for Web</td>
+      <th scope="row" align="left">TomTom Maps SDK for Web</th>
       <td>Fail</td>
       <td>
         <ul>
