@@ -1,18 +1,18 @@
 <h1>Web map tools WCAG 2.1 evaluation</h1>
 
-A summary of this evaluation was presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gkzg)/[slides](https://wcag-maps.nicchan.me/)) by [Nic Chan](https://www.nicchan.me/) at the 2020 [W3C/OGC Joint Workshop Series on Maps for the Web](https://www.w3.org/2020/maps/).
+<p>A manual accessibility evaluation of popular web map tools.</p>
 
 <h2>Evaluation scope</h2>
 
 <p>
-  This <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a> evaluation is to manually assess the accessibility support of a
+  This <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a> evaluation is to assess the accessibility support of a
   <a href="https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html">basic web map</a>
   from each of the web map tools as implemented by the W3C
   <a href="https://www.w3.org/community/maps4html/">Maps for HTML Community Group</a>.
 </p>
 
 <p>
-  The intention of this document is to get a broad sense for the accessibility support of the evaluated web map tools. The evaluation should not be considered complete, and the results of a given <a href="#evaluated-success-criteria">Success Criterion</a> should not be interpreted as a comparison for accessibility support between the different web map tools.
+  The intention of this document is to get a broad sense for the accessibility support of the evaluated web map tools. The evaluation should not be considered complete, and the results of a given Success Criterion should not be interpreted as a comparison for accessibility support between the different web map tools.
 </p>
 
 <details>
@@ -45,6 +45,154 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
     </li>
   </ul>
 </details>
+
+<h2>Conformance results summary</h2>
+
+<table>
+  <caption>
+    <p>Summary of the <a href="#evaluated-success-criteria">14 evaluated WCAG Success Criteria</a>:</p>
+  </caption>
+  <tr>
+    <th rowspan="2" scope="col" nowrap>Web map tool</th>
+    <th colspan="2" scope="col" nowrap>Total</th>
+    <th colspan="2" scope="col" nowrap>Level A</th>
+    <th colspan="2" scope="col" nowrap>Level AA</th>
+    <th colspan="2" scope="col" nowrap>Level AAA</th>
+  </tr>
+  <tr>
+    <th scope="col">Failed</th>
+    <th scope="col">Applicable</th>
+    <th scope="col">Failed</th>
+    <th scope="col">Applicable</th>
+    <th scope="col">Failed</th>
+    <th scope="col">Applicable</th>
+    <th scope="col">Failed</th>
+    <th scope="col">Applicable</th>
+  </tr>
+  <tr>
+    <th scope="row" align="left">Google Maps embed</th>
+    <td>11</td>
+    <td>13</td>
+    <td>6</td>
+    <td>8</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">Google Maps Platform API</th>
+    <td>10</td>
+    <td>13</td>
+    <td>6</td>
+    <td>8</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">Bing Maps embed</th>
+    <td>5</td>
+    <td>14</td>
+    <td>2</td>
+    <td>9</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">Bing Maps Control API</th>
+    <td>7</td>
+    <td>13</td>
+    <td>3</td>
+    <td>8</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
+    <td>8</td>
+    <td>12</td>
+    <td>4</td>
+    <td>7</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">Leaflet JS API</th>
+    <td>6</td>
+    <td>13</td>
+    <td>2</td>
+    <td>8</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">OpenStreetMap embed</th>
+    <td>8</td>
+    <td>14</td>
+    <td>3</td>
+    <td>9</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">OpenLayers API</th>
+    <td>8</td>
+    <td>13</td>
+    <td>4</td>
+    <td>8</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">MapBox Studio embed</th>
+    <td>6</td>
+    <td>14</td>
+    <td>3</td>
+    <td>9</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">MapBox GL JS API</th>
+    <td>7</td>
+    <td>13</td>
+    <td>3</td>
+    <td>8</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left">TomTom Maps SDK for Web</th>
+    <td>9</td>
+    <td>13</td>
+    <td>5</td>
+    <td>8</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+
+A summary of this evaluation was also presented ([video](https://www.youtube.com/watch?v=V-Gx0e5Gkzg)/[slides](https://wcag-maps.nicchan.me/)) by [Nic Chan](https://www.nicchan.me/) at the 2020 [W3C/OGC Joint Workshop Series on Maps for the Web](https://www.w3.org/2020/maps/).
 
 <hr>
 
@@ -583,7 +731,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
   <tbody>
     <tr>
       <th scope="row" align="left">Google Maps embed</th>
-      <td>N/A</td>
+      <td aria-label="Not applicable">N/A</td>
       <td>(No single key shortcuts available.)</td>
     </tr>
     <tr>
@@ -603,7 +751,7 @@ A summary of this evaluation was presented ([video](https://www.youtube.com/watc
     </tr>
     <tr>
       <th scope="row" align="left">MapKit JS (Apple Maps) API</th>
-      <td>N/A</td>
+      <td aria-label="Not applicable">N/A</td>
       <td>(No single key shortcuts available.)</td>
     </tr>
     <tr>
